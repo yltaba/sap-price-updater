@@ -98,29 +98,6 @@ def atualizar_contratos(sap_username, sap_password, ambiente, contrato):
     #         pyautogui.press('a')
     # time.sleep(2)   
 
-    
-
-# def main():
-#     st.title('Atualização de preços de contratos SAP')
-#     st.subheader('Transação ME32K')
-
-#     # User inputs for credentials and file upload.
-#     sap_username = st.text_input("SAP Username")
-#     sap_password = st.text_input("SAP Password",type='password')
-#     uploaded_file = st.file_uploader("Inclua o arquivo Excel com os novos preços (de acordo com template)", type=['xlsx'])
-    
-#     if uploaded_file is not None:
-#         contrato = pd.read_excel(uploaded_file)
-        
-#         # Button to start the process.
-#         if st.button('Atualizar preços'):
-
-#             if st.confirmation_modal('Confirmar atualização', 'Você tem certeza que deseja atualizar os preços? Isso não pode ser desfeito.'):
-#                 with st.spinner('Atualizando...'):
-#                     atualizar_contratos(sap_username, sap_password, contrato)
-#                 st.success('Preços atualizados!')
-#             else:
-#                 st.info('Atualização cancelada pelo usuário.')
 
 
 def main():
